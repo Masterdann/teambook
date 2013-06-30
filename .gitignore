@@ -1,0 +1,11 @@
+*.pdf
+*.dvi
+*.aux
+*.log
+*.lof
+*.bbl
+*.blg
+*.lot
+*.toc
+*.tex~
+*.sh
