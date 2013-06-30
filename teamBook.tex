@@ -1,15 +1,19 @@
-\documentclass[letterpage, titlepage]{article}
-\input{preambulo}
+\documentclass[letterpage, oneside]{book}
+\input{preamble}
 
 \title{\bfseries Tuxers Teambook}
 \author{Sergio Guillen, Arnold Paye y Jhonatan Castro}
 \date{\itshape\today}
-\titlepic{\includegraphics{recursos/img/problem.jpg}}
+\titlepic{\includegraphics{resources/img/problem.jpg}}
 
 \begin{document}
+	\frontmatter
+		\tableofcontents
+	\mainmatter
+		%% Other
+		\include{chapters/others}
+		%% Dynamic Programming
+		\include{chapters/dynamicProgramming}
+	\backmatter
 	\maketitle
-	%% Varios
-	\include{secciones/varios}
-	%% Programacion dinamica
-	\include{secciones/programacionDinamica}
 \end{document}
