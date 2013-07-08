@@ -1,6 +1,8 @@
+#define VISITED 1
+#define NOT_VISITED 0
 int n, e; // number of nodes and edges
 vector<vi> graph; // adjacency list of the graph
-int dfsm[MAX];
+int dfsm[MAX]; // max number of vertices in the graph
 
 void dfs(int start) {
 	dfsm[start] = VISITED;
